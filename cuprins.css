@@ -1,0 +1,87 @@
+	@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+
+
+	body 
+    		{
+       			background-color: #86beda;
+			.mySlides {display: none;}
+			img {vertical-align: middle;}
+    		}
+
+
+	.slideshow-container 
+		{
+  			max-width: 1000px;
+  			position: relative;
+  			margin: auto;
+		}
+
+
+	.imagine
+		{
+			margin-left: auto; 
+        		margin-right: auto; 
+        		display: block;  
+        		border-radius: 25px; 
+        		width:500px;
+			height:500xpx;
+
+		}
+
+	.text
+		{
+			text-align:center;
+			color: #f5f3d9; 
+		}
+
+	.titlu 
+		{
+			text-align:center; 
+			color: #f5f3d9;
+			font-family: 'Quicksand', sans-serif;
+  			padding: 8px 12px;
+			bottom: 8px;
+  			width: 100%;
+		}
+
+	.numbertext 
+		{
+ 			color: #f2f2f2;
+  			font-size: 12px;
+  			padding: 8px 12px;
+  			position: absolute;
+  			top: 0;
+		}
+
+	.dot 
+		{
+  			height: 15px;
+  			width: 15px;
+  			margin: 0 2px;
+  			background-color: #bbb;
+  			border-radius: 50%;
+  			display: inline-block;
+  			transition: background-color 0.6s ease;
+		}
+
+	.active 
+		{  
+			background-color: #717171;
+		}
+
+
+	.fade 
+		{
+  			animation-name: fade;
+  			animation-duration: 1.5s;
+		}	
+
+	@keyframes fade 
+		{
+  			from {opacity: .4} 
+  			to {opacity: 1}
+		}
+
+

@@ -1,0 +1,96 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap'); 
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+
+.text {
+        font-family: 'Quicksand', sans-serif;
+        color: #f5f3d9;
+    }
+
+.my-img 
+    {
+        margin-left: auto; 
+        margin-right: auto; 
+        display: block;  
+        border-radius: 15px; 
+        opacity: 0.75;
+
+    }
+.my-img:hover 
+    {
+        opacity: 1.0;
+    }
+
+.format
+	{
+	margin-left: auto; 
+    margin-right: auto; 
+    display: block;  
+	}
+body 
+    {
+        background-color: #144b73;
+    }
+p
+	{
+		text-align: center;
+		margin-left: auto; 
+        margin-right: auto; 
+        display: block; 
+	}
+table, th, td 
+    {
+        border: 1px solid black;
+        border-collapse: collapse;
+        background-color: #f5f1c1;
+        
+        margin-left: auto;
+        margin-right: auto;
+    }
+table   
+    {
+        width: 50%; 
+    }
+th
+    {
+        height:40 px;
+
+    }
+td {
+    color: rebeccapurple;
+    height: 50px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+th, td 
+    {
+        border-style: dotted;
+        border-color: #99CCFF;
+    }
+ul
+    {
+        padding: 25px 25px 25px 35px;
+        align: center;
+        background-color: #e5deca;
+        width: 300px;
+        border: 1px solid black;
+        display: table;
+        margin: 0 auto;
+    }
+ul li 
+    {
+        margin-top: 10px;
+        background-color: #e1c699;
+        font-family: 'DM Serif Display', serif;
+        list-style-position: inside;
+        list-style-type: square;
+        border-style: inset;
+        border-width: 5px;
+        outline: 2px solid #CCC;
+        position: relative;
+        left: -10px;
+    }
